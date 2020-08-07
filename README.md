@@ -10,3 +10,9 @@ The application uses
 Searching logic is implemented in `ImageServiceImpl#filter()` method
 Endpoint for searching - `/search/{searchedTerm}`
 Application port - `8080`
+
+`cache-reload-cron` from `application.properties` sets time of refreshing in `ImageCacheRepository` class in `refresh` method.
+
+`agile-engine-base-url` from `application.properties` sets base URL in `ImageCacheRepository`.
+
+`agile-engine-api-key` from `application.properties` sets API Key.
